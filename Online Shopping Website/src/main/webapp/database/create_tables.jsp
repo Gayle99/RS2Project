@@ -10,8 +10,8 @@ try {
 	System.out.println(create_users_table);
 	System.out.println(create_products_table);
 	System.out.println(create_basket_table);
-	//st.execute(create_users_table);
-	//st.execute(create_products_table);
+	st.execute(create_users_table);
+	st.execute(create_products_table);
 	st.execute(create_basket_table);
 	System.out.println("Tables have been created");
 	con.close();
